@@ -23,7 +23,7 @@ class Home extends React.Component {
                                 <span>Eko Nur Ramadhani</span>
                             </h2>
                             {/* <p id="p1">Web Developer | Web Designer</p> */}
-                            <a href={"/assets/cv/cv-ekonurramadhani.pdf"} className="button shadow" download><i className="fa fa-download" style={style}></i> Download CV</a>
+                            <a href={"/assets/cv/cv-ekonurramadhani-terbaru.pdf"} className="button shadow" download><i className="fa fa-download" style={style}></i> Download CV</a>
                         </div>
                     </div>
                     <NavbarComponent />

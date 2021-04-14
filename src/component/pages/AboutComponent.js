@@ -20,7 +20,7 @@ class About extends React.Component {
                                 <span> Me</span>
                             </h2>
                             <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
-                            <a href={"/assets/cv/cv-ekonurramadhani.pdf"} className="button shadow" download><i className="fa fa-download" style={style}></i> Download CV</a>
+                            <a href={"/assets/cv/cv-ekonurramadhani-terbaru.pdf"} className="button shadow" download><i className="fa fa-download" style={style}></i> Download CV</a>
                         </div>
                         <div className="imgBox">
                             <img src={"/assets/me2.png"} className="me shadow-me"></img>
