@@ -835,9 +835,13 @@ textarea {
     #About .card {
         margin-bottom: 50px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         height: auto;
+    }
+
+    #About .card-text {
+        font-size: 12px;
     }
 
     #MyWork .res-progress-title {
