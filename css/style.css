@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1E2019;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.btn {
+    background-color: #E2C044 !important;
+    border: none;
+    color: #1E2019;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 1px solid #E2C044;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('/image/menu-bar.png') !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    border-radius: 10px;
+    color: #bcb9b5;
+    border-color: rgba(255, 255, 255, 0.568);
+}
+
+/* nav-tabs */
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+    color: #1E2019 !important;
+}
+
+.nav-tabs .nav-link:hover {
+    border: none;
+    border-bottom: 1px solid #f19b20;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #1E2019;
+}
+
+/* end of nav-tabs */
+
+.name {
+    font-weight: 800;
+    font-size: 50px;
+    text-shadow: 0 8px 6px rgba(0, 0, 0, 0.25);
+    -webkit-animation: fade 0.5s ease-in;
+	        animation: fade 0.5s ease-in;
+}
+
+.name-pt {
+    font-weight: 800;
+    font-size: 45px;
+    text-shadow: 0 8px 6px rgba(0, 0, 0, 0.25);
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    -webkit-animation: fade 0.5s ease-in;
+	        animation: fade 0.5s ease-in;
+}
+
+@keyframes fade {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(15px);
+              opacity: 0%;
+    }
+
+    100% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+              opacity: 100%;
+    }
+  }
+
+#banner span {
+    margin: 20px;
+}
+
+.color {
+    position: absolute;
+    filter: blur(150px);
+    z-index: -99;
+}
+
+.divider { 
+    border-bottom: 10px solid #E2C044;
+    width: 20%;
+    -webkit-animation: fade 0.5s ease-in;
+            animation: fade 0.5s ease-in;
+}
+
+#banner p {
+    width: 100%;
+    -webkit-animation: fade 0.5s ease-in;
+	        animation: fade 0.5s ease-in;
+}
+
+@keyframes fadein {
+    0% {opacity: 0%;}
+    50% {opacity: 20%;}
+    100% {opacity: 100%;}
+}
+
+#banner img {
+    animation: fadein 0.5s ease-in;
+}
+
+.color:nth-child(1) {
+    top: -150px;
+    width: 300px;
+    height: 300px;
+    background: #CC79AF;
+}
+
+.color:nth-child(2) {
+    bottom: -10px;
+    left: 65%;
+    width: 250px;
+    height: 250px;
+    background: #4ACBF0;
+}
+
+ul {
+    padding: 0;
+    -webkit-animation: fade 0.5s ease-in;
+	        animation: fade 0.5s ease-in;
+}
+
+ul li {
+    list-style: none;
+    opacity: 30%;
+    padding: 10px;
+}
+
+i {
+    color: #fff !important;
+}
+
+ul li:hover{
+    opacity: 100%;
+    background: #f19b20 !important;
+    border-radius: 5px;
+}
+
+#About {
+    background-color: #D3D0CB;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#About h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 5px;
+}
+
+#About .about-text {
+    font-size: 14px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+/* card */
+#About .card {
+    padding: 30px;
+    color: #1E2019;
+    border: none;
+    border-radius: 25px;
+    background: #D3D0CB;
+    box-shadow:  5px 5px 10px #bcb9b5,
+                -5px -5px 10px #eae7e1;
+    margin: 10px 20px;
+    height: 500px;
+}
+
+#About .card:hover{
+    background: #000b1f;
+    cursor: pointer;
+    color: #53a3ff !important;
+    border: none;
+    margin-top: -20px;
+    transition: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+#About .card .card-img {
+    margin: auto;
+    z-index: 100;
+}
+
+.card .card-title {
+    font-weight: 600;
+}
+
+.card .title-responsible {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.card .card-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+/* responsibility */
+#responsibility {
+    background-color: #D3D0CB;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#responsibility h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 5px;
+}
+
+#responsibility .responsibility-text {
+    font-size: 14px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+/* card */
+#responsibility .card {
+    padding: 30px;
+    color: #1E2019;
+    border: none;
+    border-radius: 25px;
+    background: #D3D0CB;
+    box-shadow:  5px 5px 10px #bcb9b5,
+                -5px -5px 10px #eae7e1;
+    margin: 10px 20px;
+}
+
+#responsibility .card:hover{
+    background: #000b1f;
+    cursor: pointer;
+    color: #53a3ff !important;
+    border: none;
+    margin-top: -20px;
+    transition: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+#responsibility .card .card-img {
+    margin: auto;
+    z-index: 100;
+}
+/* end responsibility */
+
+/* Section MyWork */
+#MyWork {
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 122px;
+}
+
+#MyWork .colorWork {
+    position: absolute;
+    filter: blur(150px);
+    z-index: -99;
+}
+
+#MyWork .colorWork:nth-child(1) {
+    width: 300px;
+    height: 300px;
+    background: #CC79AF;
+}
+
+#MyWork span {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #E2C044;
+}
+
+#MyWork h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    color: #E2C044;
+    font-weight: 700;
+}
+
+#MyWork p {
+    font-size: 15px;
+    margin-top: 54px;
+}
+
+#MyWork a {
+    color: #E2C044;
+    text-decoration: none;
+}
+
+#MyWork .heading {
+    padding-bottom: 5em;
+}
+/* End Section MyWork */
+
+/* Section MyLatestWork */
+#myLatestWork {
+    background-color: #D3D0CB;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#myLatestWork h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#myLatestWork p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+/* order status tracking by manit on codepen.io */
+ul.tracking {
+    margin: 0;
+    padding: 0;
+    /* list-style-type: none; */
+}
+
+ul.tracking li {
+    display: block;
+    text-align: justify;
+    line-height: 2.5em;
+    opacity: 100%;
+}
+
+ul.tracking[data-tracking-steps="2"] li { width: 49%; }
+ul.tracking[data-tracking-steps="3"] li { width: 33%; }
+ul.tracking[data-tracking-steps="4"] li { width: 24%; }
+ul.tracking[data-tracking-steps="5"] li { width: 100%; }
+ul.tracking[data-tracking-steps="6"] li { width: 16%; }
+ul.tracking[data-tracking-steps="7"] li { width: 14%; }
+ul.tracking[data-tracking-steps="8"] li { width: 12%; }
+ul.tracking[data-tracking-steps="9"] li { width: 11%; }
+
+ul.tracking li.done {
+    color: #1E2019;
+    border-left: 4px dotted orange;
+}
+
+ul.tracking li:after {
+    content: "\00a0\00a0";
+}
+ul.tracking li:before {
+    position: relative;
+    bottom: -0.5em;
+    float: left;
+    left: -6%;
+    line-height: 1em;
+}
+
+ul.tracking li.done:before {
+    content: "\2713";
+    color: #1E2019;
+    background-color: #f19b20;
+    height: 2.2em;
+    width: 2.2em;
+    line-height: 2.2em;
+    border: none;
+    border-radius: 2.2em;
+    text-align: center;
+}
+
+ul.tracking li:hover {
+    opacity: 100%;
+    background: none !important;
+    color: #f19b20;
+    cursor: pointer;
+}
+.content-image {
+    display: none;
+}
+/* end of order status tracking by manit on codepen.io */
+
+/* caraousel by slicky */
+.wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    font-size: 20px;
+}
+.carousel{
+    width:100%;
+    margin:0px auto;
+}
+.slick-slide{
+    margin:10px;
+}
+.slick-slide img{
+    width:100%;
+}
+.slick-prev, .slick-next{
+    background: #1E2019 !important;
+    border-radius: 15px;
+    border-color: transparent;
+}
+.carousel .card{
+    border: none;
+    background: #D3D0CB;
+    box-shadow:  5px 5px 7px #bcb9b5,
+                -3px -3px 7px #eae7e1;
+}
+.carousel .card:hover{
+    border: none;
+    background: #f19b20;   
+    cursor: pointer;
+}
+.carousel .card-header {
+    background: transparent;
+    border: none;
+    padding: 10px !important;
+}
+.carousel .card-header img {
+    border-radius: 5px;
+}
+.carousel .card-body{
+    /* background: #fff; */
+    width: 100%;
+    vertical-align: top;
+}
+.carousel .card-title {
+    font-size: 15px;
+}
+.carousel .card-content{
+    text-align: left;
+    color: #333;
+    padding: 15px;
+}
+.card-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+/* End Section MyLatestWork */
+
+/* myLastJob */
+#myLastJob {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #D3D0CB;
+}
+
+#myLastJob h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#myLastJob p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+#myLastJob .colorJob {
+    position: absolute;
+    filter: blur(150px);
+    z-index: -99;
+}
+
+#myLastJob .colorJob:nth-child(1) {
+    width: 300px;
+    height: 300px;
+    background: #CC79AF;
+}
+/* End myLastJob */
+
+#Tools {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #D3D0CB;
+}
+
+#Tools .colorTools {
+    position: absolute;
+    filter: blur(150px);
+    z-index: -99;
+}
+
+#Tools .colorTools:nth-child(1) {
+    left: 65%;
+    width: 300px;
+    height: 300px;
+    background: #53a3ff;
+}
+
+#Tools h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1E2019;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#Tools p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+/* Section Tools */
+
+/* progress */
+.res-steps-container .res-steps {
+    width: 25%;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    /* margin-bottom: 100px; */
+}
+
+.res-steps-container .res-steps .res-step-bar {
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    border-radius: 50% !important;
+    background: #0aa7e1;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    padding-top: 7px;
+    font-size: 20px
+}
+
+.res-steps-container .res-steps .res-progress-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    display: block
+}
+
+.res-steps-container .res-steps .res-progress-bar {
+    height: 5px;
+    background: #0aa7e1;
+    width: 50%;
+    margin: -22px 0 0 50%;
+    float: left
+}
+
+.res-steps-container .res-step-two .res-progress-bar, .res-steps-container .res-step-three .res-progress-bar, .res-steps-container .res-step-four .res-progress-bar {
+    width: 100%;
+    margin-left: 0%
+}
+
+.res-steps-container .res-step-four .res-progress-bar {
+    width: 50%;
+    margin-right: 50%
+}
+
+.res-step-form {
+    border: 1px solid #d2d2d2;
+    box-shadow: 0px 6px 4px -2px silver;
+    position: absolute
+}
+
+.res-step-form h3 {
+    margin: 10px 0;
+    color: #0aa7e1;
+    font-size: 18px
+}
+
+.res-step-form .form-horizontal label {
+    font-weight: normal
+}
+
+.res-form-two, .res-form-three, .res-form-four {
+    left: 150%
+}
+
+.active .res-step-bar {
+    background: #f19b20 !important
+}
+
+.active .res-progress-title {
+    color: #0aa7e1
+}
+/* end of progress */
+
+#contact .colorContact {
+    position: absolute;
+    filter: blur(150px);
+    z-index: -99;
+}
+
+#contact .colorContact:nth-child(1) {
+    /* top: -150px; */
+    width: 300px;
+    height: 300px;
+    background: #4ACBF0;
+}
+
+#contact h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #53a3ff;
+}
+
+#contact p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+footer {
+    background: #0E0D03;
+}
+
+/* input */
+.form-control {
+    background: none !important;
+    color: #f19b20 !important;
+    border: 2px dotted #bcb9b5;
+    font-weight: 600;
+}
+
+form label {
+    color: #bcb9b5 !important;
+}
+
+textarea {
+    height: 100px !important;
+}
+/* end of input */
+
+/* Gallery */
+.gallery-wrapper .row > div {
+    padding: 2px;
+  }
+/* End Of Gallery */
+
+@media only screen and (max-width: 768px) {
+    ul.tracking {
+        padding: 10px;
+    }
+    ul.tracking li {
+        text-align: left;
+        font-size: 12px;
+    }
+    ul.tracking li:before {
+        position: relative;
+        bottom: -0.2em;
+        float: left;
+        left: -10%;
+        line-height: 1em;
+    }
+
+    #banner .name-pt {
+        font-size: 40px;
+    }
+
+    #banner p {
+        font-size: 12px;
+    }
+
+    #banner ul {
+        margin-top: 10px !important;
+    }
+
+    #banner ul li a i {
+        font-size: 20px !important;
+    }
+
+    #About .card {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        height: 350px;
+    }
+
+    #About .card .card-img {
+        width: 50%;
+    }
+
+    .content-image {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    #responsibility .card {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    #responsibility .card img {
+        width: 50%;
+    }
+
+    #responsibility .card:hover {
+        background: none !important;
+        margin-top: 0;
+        color: #333 !important;
+        transition: none;
+        border: none;
+    }
+    #myLastJob .d-flex {
+        display: block !important;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #myLastJob .row {
+        margin-top: 50px;
+        display: flex !important;
+        flex-direction: column-reverse;
+        align-items: center !important;
+    }
+
+    #myLastJob .row:nth-child(2) {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .carousel .card-title {
+        font-size: 13px;
+    }
+
+    #Tools .d-flex {
+        display: block !important;
+        text-align: center;
+    }
+
+    #Tools .colorTools:nth-child(1) {
+        display: none;
+    }
+}
+/* responsive mobile */
+@media only screen and (max-width: 767px) {
+
+    .color:nth-child(1) {
+        width: 100px;
+    }
+    .color:nth-child(2) {
+        left: 40%;
+        width: 100px;
+    }
+
+    #MyWork .colorWork:nth-child(1) {
+        width: 200px;
+        height: 200px;
+    }
+
+    #banner img {
+        display: none;
+        visibility: hidden;
+    }
+
+    #banner .col:nth-child(2) {
+        display: none;
+    }
+
+    #banner .name {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #banner .name-pt {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #banner .divider {
+        margin: auto;
+        width: 70%;
+    }
+
+    #banner p {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 20px !important;
+    }
+
+    #banner ul {
+        justify-content: center;
+        margin-top: 10px !important;
+    }
+
+    #banner ul li a i {
+        font-size: 20px !important;
+    }
+
+    #banner .btn {
+        width: 100%;
+        padding: 5px !important;
+    }
+
+    #About .about-text {
+        width: 100% !important;
+    }
+
+    #responsibility .responsibility-text {
+        width: 100%;
+    }
+
+    #About .card {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+    }
+
+    #MyWork .res-progress-title {
+        font-size: 11px !important;
+    }
+
+    #myLatestWork .d-flex {
+        display: block !important;
+        text-align: center;
+    }
+    ul.tracking {
+        padding: 10px;
+    }
+    ul.tracking li {
+        text-align: left;
+        font-size: 12px;
+    }
+    ul.tracking li:before {
+        position: relative;
+        bottom: -0.2em;
+        float: left;
+        left: -8%;
+        line-height: 1em;
+    }
+
+    #myLastJob .d-flex {
+        display: block !important;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #contact .d-flex {
+        display: block !important;
+        text-align: center;
+    }
+}
