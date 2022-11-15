@@ -664,6 +664,10 @@ textarea {
 /* End Of Gallery */
 
 @media only screen and (max-width: 768px) {
+    .navbar-nav a:hover {
+        border-bottom: none;
+    }
+
     ul.tracking {
         padding: 10px;
     }
@@ -832,6 +836,10 @@ textarea {
         width: 100%;
     }
 
+    #About h2 {
+        font-size: 30px;
+    }
+
     #About .card {
         margin-bottom: 50px;
         display: flex;
@@ -844,8 +852,16 @@ textarea {
         font-size: 12px;
     }
 
+    #MyWork h2 {
+        font-size: 30px;
+    }
+
     #MyWork .res-progress-title {
         font-size: 11px !important;
+    }
+
+    #myLatestWork h2 {
+        font-size: 30px;
     }
 
     #myLatestWork .d-flex {
@@ -873,8 +889,26 @@ textarea {
         margin-bottom: 50px;
     }
 
+    #contact h2 {
+        font-size: 30px;
+    }
+
     #contact .d-flex {
         display: block !important;
         text-align: center;
+    }
+
+    footer .d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer ul {
+        margin: auto;
+    }
+
+    footer p {
+        align-items: center;
+        margin-top: 10px;
     }
 }
