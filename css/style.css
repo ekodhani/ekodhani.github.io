@@ -60,6 +60,44 @@ body {
 
 /* end of nav-tabs */
 
+/* Popup */
+#popup {
+    width: 300px; /* Customize with responsive version*/
+    height: 300px; /* Customize with responsive version*/
+    background: #000b1f;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: -500px;
+    border-radius: 10px;
+
+    /* for center */
+    position: fixed;
+    top: 50%; /* Customize with responsive version*/
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /* for hider */
+    display: none;
+}
+
+#close-btn {
+    border: none;
+    background: #E2C044;
+    color: #0E0D03;
+    padding: 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: -500px;
+}
+
+.text-popup {
+    font-size: 14px;
+    padding: 0 20px;
+}
+/* Popup */
+
 .name {
     font-weight: 800;
     font-size: 50px;
@@ -767,6 +805,44 @@ textarea {
     #Tools .colorTools:nth-child(1) {
         display: none;
     }
+
+    /* Popup */
+    #popup {
+        width: 300px; /* Customize with responsive version*/
+        height: 300px; /* Customize with responsive version*/
+        background: #000b1f;
+        box-sizing: border-box;
+        padding: 10px;
+        z-index: -500px;
+        border-radius: 10px;
+
+        /* for center */
+        position: fixed;
+        top: 50%; /* Customize with responsive version*/
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        /* for hider */
+        display: none;
+    }
+
+    #close-btn {
+        border: none;
+        background: #E2C044;
+        color: #0E0D03;
+        padding: 5px 15px;
+        border-radius: 5px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        z-index: -500px;
+    }
+
+    .text-popup {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    /* Popup */
 }
 /* responsive mobile */
 @media only screen and (max-width: 767px) {
@@ -911,4 +987,42 @@ textarea {
         align-items: center;
         margin-top: 10px;
     }
+
+    /* Popup */
+    #popup {
+        width: 300px; /* Customize with responsive version*/
+        height: 300px; /* Customize with responsive version*/
+        background: #000b1f;
+        box-sizing: border-box;
+        padding: 10px;
+        z-index: -500px;
+        border-radius: 10px;
+
+        /* for center */
+        position: fixed;
+        top: 35%; /* Customize with responsive version*/
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        /* for hider */
+        display: none;
+    }
+
+    #close-btn {
+        border: none;
+        background: #E2C044;
+        color: #0E0D03;
+        padding: 5px 15px;
+        border-radius: 5px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        z-index: -500px;
+    }
+
+    .text-popup {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    /* Popup */
 }

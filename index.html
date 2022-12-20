@@ -44,6 +44,17 @@
       </div>
     </nav>
     <!-- end navbar -->
+
+
+    <!-- Popup Birth -->
+    <div id="popup" class="text-center">
+      <button id="close-btn" onclick="ClosePopUp()">x</button>
+      <img src="/image/webp/Thankyou.webp" alt="Birthday" width="50%">
+      <h2 class="fw-bold">It's My Birthday</h2>
+      <p class="text-popup">Birthday greetings from you are very valuable, thank you!</p>
+      <a id="btn-close" href="#contact" class="btn btn-primary rounded" onclick="ClosePopUp()">Click</a>
+    </div>
+    <!-- End Popup Birth -->
     
     <section class="container" id="banner">
       <div class="row align-items-center">
@@ -438,6 +449,32 @@
       </div>
     </footer>
     <!-- End Of Section Footer -->
+
+    <!-- script popup -->
+    <script>
+      const birth = new Date();
+      const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+      let month = months[birth.getMonth()];
+      let tgl = birth.getDate();
+      
+      if (month == "December") {
+        if (tgl == 28) {
+          showPopUp();
+        } else {
+          ClosePopUp();
+        }
+      } else {
+        ClosePopUp();
+      }
+
+      function showPopUp(){
+        popup.style.display="block";
+      }
+      function ClosePopUp(){
+        popup.style.display="none";
+      }
+    </script>
+    <!-- end script popup -->
 
     <!-- script carousel slick -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
